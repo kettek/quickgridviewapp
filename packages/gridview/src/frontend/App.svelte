@@ -76,6 +76,8 @@ margin: 1em;
     height: 100%;
     display: grid;
     grid-template-columns: auto minmax(0, 1fr);
+    background: #222222;
+    color: #aaaaaa;
   }
   main.gridMode {
     grid-template-columns: minmax(0, 1fr);
@@ -95,5 +97,18 @@ margin: 1em;
   .gogogo {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
+  }
+  input, textarea {
+    background: #000000;
+    color: #aaaaaa;
+    font-family: courier;
+  }
+  button {
+    background: #000000;
+    color: #aaaaaa;
+    font-weight: bold;
+  }
+  label {
+    border: 1px solid #444444;
   }
 </style>
