@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "workspaces": [
-    "packages/browser"
+    "packages/gridview"
   ],
   "scripts": {
-    "start": "npm run start --workspace=packages/browser",
+    "start": "npm run start --workspace=packages/gridview",
     "build": "npm run build --workspaces"
   },
   "repository": {
